@@ -24,7 +24,7 @@ def submit_form():
 
 
 
-#type in any string and get the html template with the same name
+#type in any stuff and get the html template with the same name
 @app.route('/<string:page_name>')
 def html_page(page_name):
     return render_template(page_name)
